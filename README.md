@@ -29,4 +29,8 @@ mkdir repos
 cd repos
 ```
 * Doing that, it will create a directory named `repos` on your Macbook central directory (you can name it whatever you prefer). This folder will represent the directory that you will work and upload on GitHub.
-* To link the directory on GitHub you will 
+* To link the directory on GitHub you will use the `git clone` and the `URL` that was copied on SSH Option to the terminal.
+```
+git clone git@github.com:USER-NAME/REPOSITORY-NAME.git
+```
+* Notice that I putted `USER-NAME/REPOSITORY-NAME` that you will replace to your own user name and repository name, finishing with `.git`.
