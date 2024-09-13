@@ -63,4 +63,20 @@ git status
 * Don’t worry if you get a message that says “upstream is gone”. This is normal and only shows when your cloned repository currently has no branches. It will be resolved once you have followed the rest of the steps in this project. The message, “Your branch is ahead of ‘origin/main’ by 1 commit” just means that you now have newer snapshots than what is on your remote repository. You will be uploading your snapshots further down in this lesson.
 * If this happen. Type git log and look at the output. You should see an entry for your “Add hello_world.txt” commit. You will also see other details which include the author who made the commit and the date and time of when the commit was made. If your terminal is stuck in a screen with (END) at the bottom, just press “q” to escape. You can configure settings for this later, but don’t worry about it too much for now.
 
-  
+### 4º: Modifing and saving a file
+
+* Open the "hello_world.txt" in your text editor of choice (I prefer use `Text Editor` or `Visual Studio Code`) and type anything like "Cruzeiro Esporte Clube" and save the changes.
+* Now type:
+```
+git add hello_world.txt
+git status
+git commit -m "Edit hello_world.txt"
+git status
+```
+
+### 4º: Push your work to GitHub
+
+* Finally, let’s upload your work to the GitHub repository you created at the start of this tutorial.
+* Type `git push origin main`. NOTE: If at this point you receive a message that says “Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.”, you have followed the steps incorrectly and cloned with HTTPS, not SSH. Please follow the steps for switching remote URLs from HTTPS to SSH to change your remote to SSH, then attempt to push to Github.
+* Type `git status` one final time. It should output “Your branch is up to date with ‘origin/main’. nothing to commit, working tree clean”.
+* And when you refresh your GitHub it will have your new files
