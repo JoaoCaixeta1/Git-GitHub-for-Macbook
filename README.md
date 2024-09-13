@@ -74,9 +74,9 @@ git commit -m "Edit hello_world.txt"
 git status
 ```
 
-### 4º: Push your work to GitHub
+### 5º: Push your work to GitHub
 
 * Finally, let’s upload your work to the GitHub repository you created at the start of this tutorial.
 * Type `git push origin main`. NOTE: If at this point you receive a message that says “Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.”, you have followed the steps incorrectly and cloned with HTTPS, not SSH. Please follow the steps for switching remote URLs from HTTPS to SSH to change your remote to SSH, then attempt to push to Github.
 * Type `git status` one final time. It should output “Your branch is up to date with ‘origin/main’. nothing to commit, working tree clean”.
-* And when you refresh your GitHub it will have your new files
+* And when you refresh your GitHub it will have your new files.
