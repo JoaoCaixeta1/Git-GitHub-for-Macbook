@@ -6,12 +6,10 @@
 * First, we need a [GitHub](https://github.com/) account and then let's create a repository.
 * On the page, it has two options to create: `private` or `public` repository. You must choose what you prefer, if it's a private repository that only you can see, or a public that anyone who access your page can visit.
 * After choose the kind of repository you want, just click on `create a new repository`.
-  
-![GitHub Repository](/images/repository.png)
-
 * After just click on the circled option and the README option. Then create the repository by clicking the “Create repository” button at the bottom of the page.
 
-![README](/images/readme.png)
+![GitHub Repository](/images/repository.png)
+
 * You can edit with instructions from your repository or whatever you want to describe about your work. People often create to provide the "repository manual".
   
 * To get ready to copy (clone) this repository onto your local machine, click the green “Code” button, which should be to the right of the button displaying the current branch (typically it will display the main branch). Then select the SSH option in the “Clone” section, and copy the line below it. **NOTE: You MUST click the SSH option to get the correct URL**.
