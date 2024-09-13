@@ -4,4 +4,4 @@
 
 ### 1º
 * First, we need a [GitHub](https://github.com/) account and then let's create a repository on
-  
+  ![GitHub Repository](/images/repository.png)
