@@ -14,7 +14,7 @@
   
 * To get ready to copy (clone) this repository onto your local machine, click the green “Code” button, which should be to the right of the button displaying the current branch (typically it will display the main branch). Then select the SSH option in the “Clone” section, and copy the line below it. **NOTE: You MUST click the SSH option to get the correct URL**.
 
-![Clone](/images/clone.png)
+![Clone](/images/clone.jpg)
 
 ### 2º: Creating a repository on the local machine
 
