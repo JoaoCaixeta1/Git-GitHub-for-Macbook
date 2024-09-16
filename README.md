@@ -23,6 +23,7 @@
 * If you haven’t already, set your local default Git branch to `main`. You can do so by running:
 ```
 git config --global init.defaultBranch main
+git status
 ```
 * Next get back to the Terminal and just paste some basic commands:
 ```
